@@ -15,5 +15,11 @@ namespace continuous_migration.DTO
 
         [JsonProperty(propertyName: "description")]
         public string Description { get; set; }
+
+        [JsonProperty(propertyName: "actionType")]
+        public string ActionType { get; set; }
+
+        [JsonProperty(propertyName: "sourceId")]
+        public string SourceId { get; set; }
     }
 }

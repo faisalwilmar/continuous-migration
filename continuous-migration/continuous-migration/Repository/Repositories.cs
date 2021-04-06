@@ -29,5 +29,12 @@ namespace continuous_migration.Repository
                 base(databaseId: databaseName, client, createDatabaseIfNotExist: false)
             { }
         }
+
+        public class MigrationLogRepository : DocumentDBRepository<MigrationLog>
+        {
+            public MigrationLogRepository(CosmosClient client, string databaseName) :
+                base(databaseId: databaseName, client, createDatabaseIfNotExist: false)
+            { }
+        }
     }
 }

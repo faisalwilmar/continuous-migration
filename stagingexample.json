@@ -5,7 +5,8 @@
         "id": "b7743e72-012e-4f12-9712-89a8e5a84975",
         "activityName": "The New Activity Checking Evh1",
         "description": "Activity Description",
-        "actionType": "Insert"
+        "actionType": "Insert",
+        "sourceId": "Activity Service"
     },
     "partitionKey": "Staging",
     "documentType": "Staging"
