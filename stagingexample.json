@@ -1,0 +1,12 @@
+{
+    "type": "act-migration",
+    "timestamp": "10/22/2020 10:31:00",
+    "message": {
+        "id": "b7743e72-012e-4f12-9712-89a8e5a84975",
+        "activityName": "The New Activity Checking Evh1",
+        "description": "Activity Description",
+        "actionType": "Insert"
+    },
+    "partitionKey": "Staging",
+    "documentType": "Staging"
+}
