@@ -1,0 +1,7 @@
+{
+    "id": "aee3f63f-0533-4aa6-b392-bc5293741cd7",
+    "type": "bcs-participant-prod",
+    "evhName": "bol.participant",
+    "evhEndpoint": "Endpoint=sb://evh-bm7-course-prod2.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=t5H6cLd3I6DZFqZz5X9Ka1SKnthf1roJhzrzo+Ycu3M=",
+    "partitionKey": "Configuration"
+}
